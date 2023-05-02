@@ -1,0 +1,74 @@
+body {
+    background-color:rgb(241, 13, 104);
+}
+
+p {
+    margin-bottom: 5px
+}
+
+form > * {
+    display:block;
+}
+
+input {
+    margin-bottom: 14px;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+#post-form {
+    margin-top: 40px
+}
+
+#shake-button:hover {
+    
+    animation: effect 0.4s infinite;
+}
+@keyframes effect {
+    0% {
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translateX(-4px) rotate(-4deg);
+    }
+
+    40% {
+        transform: translateX(-2px) rotate(-2deg);
+    }
+
+    60% {
+        transform: translateX(4px) rotate(4deg);
+    }
+
+    80% {
+        transform: translateX(2px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+
+h1 {
+        animation-name: bgColorChange;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+
+    }
+
+    @keyframes bgColorChange {
+    
+        60% { color: white; };
+     } 
+
+
+    
+ 
